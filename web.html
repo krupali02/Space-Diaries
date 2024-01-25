@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> Space Diaries </title>
+  <link rel="stylesheet" type="text/css" href="web.css" title="style" />
+  <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Average Sans' rel='stylesheet'>
+
+  <script src="web.js"></script>
+</head>
+
+
+<div  class="content">
+
+
+    <body>
+    <div>
+    <h1> Space Diary</h1>
+    <header><h2> A collection of all the information I have learned about space and it's wonders </h2></header>
+    </div>
+    
+    <div class="links">
+        <!-- <div class="input"> -->
+        <h2>More</h2>
+        <!-- <ul>-->
+        <button class="bu" onclick="home()"> Home </button>
+        <button class="bu" onclick="plan()"> Planets </button>
+        <button class="bu" onclick="star()"> Stars </button>
+        <button class="bu" onclick="ff()"> Fun Facts </button>
+        <button class="bu" onclick="aut()"> About the Author </button>
+
+        <!--button class="bu"  onclick="p04Func()"> Problem 4 </button>
+        <button class="bu" onclick="p05Func()"> Problem 5 </button>
+        <button class="bu"  onclick="p06Func()"> Problem 6 </button>-->
+         <!-- </ul>--> 
+        
+ </div>
+
+    <!--<div class="links">
+        <h2>Links</h2>
+        <ul>
+        <button onclick="p01Func()"> Problem 1 </button>
+        <button onclick="p02Func()"> Problem 2 </button>
+        <button onclick="p03Func()"> Problem 3 </button>
+         </ul>
+    </div>-->
+
+
+    <div class="diary" id="intro" style="display: block;">
+    <p>HELLO THERE</p> </div>
+
+    <div class="diary" id="hidee" style="display: none;"> 
+        <!--<h2 >Hi there, my name is Krupali Patel and I am a first year computer science student attending York University. I have created this mini blog post to give YOU guys a little information about our solar system. 
+           <br> Well, not just our solar system, but a bit of the entire universe. <br><br> On your left, there is a panel for the different topics that have interested me, and when u click the following buttons, u can explire more about this mysterious universe in which we live in.<h2>-->
+           <p> Hey there! My name is Krupali Patel and I am a first-year computer science student currently attending York University. <br><br> Here's a little bit more about me. I currently live in Vaughan, Ontario with my family and I am truly passinate about coding, art, and space. So I thought, why not combine those three passions and make something out of it. As a result, I created this mini-blog post. <br><br> Through my knowledges in a few coding languages (specifically JavaScript, HTML and CSS), I combined it with my visual style to create the basic design and functions. For the actual content component, I wanted to find a way to combine my artictic style with space. As a result, for each planet and star mentioned in this site, I put my own visual twist. You will be able to find an actual photo of the planet or star and then beside it, should be my on take, in the form of a drawing or painting. 
+               
+            
+        </div>
+
+    <div class="diary" id="hidden" style="display: none;"> 
+    <h2 id="idk" >The planets in our solar system </h2>
+        <p>
+        <button  type="button" class="pl" onclick="mer()"> Mercury </button>
+        <button  type="button" class="pl" onclick="ven()" > Venus </button>
+        <button  type="button" class="pl" onclick="ear()"> Earth </button>
+        <button  type="button" class="pl" onclick="mar()"> Mars </button>
+        <button  type="button" class="pl" onclick="jup()"> Jupiter </button>
+        <button  type="button" class="pl" onclick="sat()"> Saturn </button>
+        <button  type="button" class="pl" onclick="ur()"> Uranus </button>
+        <button  type="button" class="pl" onclick="nep()"> Neptune </button>
+        </p>
+        
+    </div>
+
+    <div class="diary" id="okie" style="display: none;"> 
+        <h2 class="idk"> The stars in our universe </h2>
+            <p>
+            <button type="button"  class="pl" onclick="sun()"> Sun </button>
+            <button  type="button" class="pl" onclick="s2()" > Canopus </button>
+            <button  type="button" class="pl" onclick="s3()"> Light Echo </button>
+            <button  type="button" class="pl" onclick="s4()"> Pleiades </button>
+            <button  type="button" class="pl" onclick="s5()"> Vega </button>
+            <button  type="button" class="pl" onclick="s6()"> Polaris </button>
+            <button  type="button" class="pl" onclick="s7()"> Sirius </button>
+            <button  type="button" class="pl" onclick="s8()"> Rigel </button>
+            </p>
+            
+        </div>
+
+
+
+    <div id="plane" class="diary" style="display: none;">
+        <p> Click on any of the planets above to learn more about them!</p>
+    </div> <!--click above for planet-->
+    <div id="stars" class="diary" style="display: none;">
+        <p> Click on any of the stars above to learn more about them!</p>
+    </div> <!--click above for stars-->
+
+
+<!--INFO FOR PLANETS 
+    <div id="planetss" class="diary" style="display: none;"></div>  -->
+    <div id="mercury" class="diary" style="display: none;"> facts bour mercury</div>
+    <div id="venus" class="diary" style="display: none;">  facts bour venus</div>
+    <div id="earth" class="diary" style="display: none;">  facts bour earth</div>
+    <div id="mars" class="diary" style="display: none;">  facts bour mars</div>
+    <div id="jupiter" class="diary" style="display: none;">  facts bour jupiter</div>
+    <div id="saturn" class="diary" style="display: none;">  facts bour saturn</div>
+    <div id="uranus" class="diary" style="display: none;">  facts bour uranus</div>
+    <div id="neptune" class="diary" style="display: none;">facts bour neptune</div>
+
+    <!--INFO FOR PLANETS
+        <div id="starss" class="diary" style="display: none;"></div>-->
+
+        <div id="Sun" class="diary" style="display: none;"> this is the sun</div>
+        <div id="S2" class="diary" style="display: none;"> this is S2</div>
+        <div id="S3" class="diary" style="display: none;"> this is the s3</div>
+        <div id="S4" class="diary" style="display: none;"> Another one of a s4</div>
+        <div id="S5" class="diary" style="display: none;"> this is the s5</div>
+        <div id="S6" class="diary" style="display: none;"> Another one of a s6</div>
+        <div id="S7" class="diary" style="display: none;"> this is the s7</div>
+        <div id="S8" class="diary" style="display: none;"> Another one of a s8</div>
+
+
+   
+    
+    
+   <!-- 
+       <div class="diary"  id="merr" style="display: none;"> 
+    <h2> Mercury <span> (the 1st planet)</span></h2>
+        <p>stuff about mercury </p>
+    <div id="venn" style="display: none;">
+    <h2> stuff ven</h2></div>
+    </div>
+       
+    
+    
+    
+    <div class="diary"> 
+    <h2> Ghost Knight <span>by Cornelia Funke  </span></h2>
+        <p>
+            Jon's desperate quest to find out why the ghosts are after him leads him to the mystery of a centuries-old murder. Meanwhile, he is still pursued by the vengeful ghosts, so with the help of a new friend, Ella, he summons a noble ghost – Sir William Longspee, the Ghost Knight of the title – to protect him. They finally uncover a complicated truth and right a grievous wrong. 
+        </p>
+        <p>
+            <img src="images/GeisterRitter.jpg" alt="Ghost Rider book cover">
+        </p>
+        <p> 
+            You can find the book at <a target="_blank" href="https://www.torontopubliclibrary.ca/">Toronto Public Library</a>.
+        </p>
+    </div>-->
+    
+    
+    <div id="footer">
+        <p> &copy; Author of this website - Krupali Patel </p>
+    </div>
+    
+    </body>
+    </div>
+    </html>

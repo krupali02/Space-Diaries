@@ -1,0 +1,254 @@
+.content {
+    /* border: 5px;
+     border-color: blue;
+     border-style: solid;*/
+     background-color: black;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     font-size: 14px;
+  }
+  
+  header > h2 {
+     /* border: 3px;
+      border-color: orange;
+      border-style: solid;*/
+      text-align: center;
+      margin-top: 0px;
+      color: white;
+      font-size: 14px;
+ 
+   }
+
+.bu {
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center;
+width: 3cm;
+height: 28px;
+
+margin-bottom: 8px;
+margin-top: 7px;
+position: relative;
+left: 15%;
+font-family: 'Armata', monospace;
+font-size: 16px;
+/*
+font-family: "Times New Roman", Times, serif
+   */
+}
+
+.pl {
+    background-color: black;
+    color: white;
+    font-family: 'Armata', monospace;
+    border: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+
+.links > h2 {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-family: 'Aldrich';
+    font-size: 25px;
+
+}
+
+.links {
+    display: grid;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(216, 216, 225);
+    padding: 15px;
+    margin-left: 8px;
+    margin-top: 3px;
+    color: white;
+    background-color:black;
+    /*overflow: auto;*/  
+    width: 162px;
+    list-style-type: none;
+    float: left;
+   }
+   
+
+  div {
+     border: 3px;
+     border-color: white;
+     border-style: solid;
+     background-color: black;
+     margin: 7px;
+  }
+  
+  span {
+      /*border: 3px;
+      border-color: cyan;
+      border-style: solid;*/
+      font-style: italic;
+      color: white;
+   }
+  
+
+   #intro {
+       font-size: 3cm;
+       font-family: 'Aldrich';
+
+   }
+
+   .diary {
+      border: 3px;
+      border-style: solid;
+      border-color:white;
+      padding: 15px;
+      margin-top: 10px;
+      background-color: black;
+      color: white;
+     /* overflow: auto;  */
+      width: 740px;
+      margin-left: 220px;  
+      text-align: center;
+      padding-top: 4px;
+  
+   }
+#hidee > p{
+    font-size: 15px;
+    text-align: left;
+    margin: 5px;
+    font-family: 'Average Sans'
+}
+
+
+
+#okie > h2 {
+    margin-top: 0.42cm;
+    margin-bottom: 0.5cm;
+    font-family: 'Aldrich';
+}
+
+#hidden > h2 {
+    margin-top: 0.42cm;
+    margin-bottom: 0.5cm;
+    font-family: 'Aldrich';
+}
+
+
+   .try {
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(216, 216, 225);
+    padding: 15px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+   /* overflow: auto;  */
+    width: 740px;
+    margin-left: 220px;  
+    text-align: center;
+    padding-top: 4px;
+
+ }
+
+   .diary > h2 {
+       font-size: 16px;
+       margin: 0cm;
+
+   }
+  /* ul {
+    list-style-type: none;
+    margin-top: 0px;
+  
+   }*/
+
+
+   
+   #footer{
+      /*border: 3px;
+      border-color:ivory;
+      border-style: solid;*/
+      background-color: black;
+      color: white;
+     text-align: center;
+     border: none;
+     font-size: 11px;
+     padding: 4px;
+   }
+  
+  /* p {
+      border: 2px;
+      border-color: grey;
+      border-style: solid;
+   }*/
+ 
+ 
+   body {
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-top: 2%;
+   }
+ 
+   html {
+  
+        background-image: url(img/solar.jpg);
+   }
+  
+
+#plane {
+    height: 2.5268cm;
+}
+
+#plane > p {
+margin-top: 1.1cm;
+}
+
+#stars {
+    height: 2.5268cm;
+}
+
+#stars > p {
+    
+        margin-top: 1.1cm;
+        
+}
+
+ h1 {
+ 
+     text-align: center;
+     margin-right: 0px;
+     color: white;
+     margin-bottom: 5px;
+     font-family: 'Aldrich';
+     font-size: 32px;
+ }
+ 
+ img {
+     float: right;
+     overflow: wrap;
+ }
+
+ a:hover {
+    color: rgb(100,149,237
+    );
+
+  }
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+p > a {
+   text-decoration: underline;
+}
+
+ul {
+   margin-top: -10px;
+
+}
+
+#okie > p {
+padding: 3px;
+}
+
+
+/* INCLUDE HOVER ELEMENT!!!!!*/
